@@ -62,7 +62,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff; }
+  background-color: #050505; }
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
@@ -7953,7 +7953,7 @@ h1, h2, h3, h4, h5,
         padding-right: 20px; }
     .pricing-entry .text .price {
       width: 80px;
-      color: #c49b63;
+      color: var(--yellow);
       text-align: right;
       background: #151111;
       background: url(../images/bg_4.jpg) no-repeat fixed;
@@ -8473,14 +8473,14 @@ textarea.form-control {
         background: none !important;
         color: black !important;
         border: 2px solid #000; }
-
+/* 
 .ftco-animate {
   opacity: 0;
-  visibility: hidden; }
+  visibility: hidden; } */
 
 .bg-primary {
   background: #c49b63 !important; }
-
+/* 
 .ftco-section .ftco-sub-title {
   font-size: 16px;
   text-transform: uppercase;
@@ -8501,7 +8501,7 @@ textarea.form-control {
   position: relative; }
   @media (max-width: 767.98px) {
     .ftco-section {
-      padding: 6em 0; } }
+      padding: 6em 0; } } */
 
 .ftco-bg-dark {
   background: #030202; }
